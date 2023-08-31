@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url(veg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
+
+
+.ves {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    height:500px;
+    width:400px;
+    background-color: #fff;
+    /* display:flex; */
+    /* justify-content:center; */
+    /* align-items:center; */
+    /* margin-top:50px;
+    margin-left:900px; */
+    border-radius: 30px;
+    position: relative;
+    left: 60%;
+    top:16vh;
+    /* background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+background: rgba( 151, 212, 85, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+}
+
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    /* margin-top:60px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+p {
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom: 30px;
+    font-size: small;
+}
+button {
+    background-color: rgb(90, 28, 148);
+    padding:7px 15px ;
+    border-radius: 50px;
+    margin-bottom:70px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color:#fff;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color:rgb(19, 59, 59);
+}
